@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Report triggering event
-      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+        run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
